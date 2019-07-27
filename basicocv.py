@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#importing the modules
 import cv2 as cv
 
 #checking the version
