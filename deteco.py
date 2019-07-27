@@ -3,7 +3,7 @@
 
 #to detect the color (red)
 
-
+# importing modules required
 import cv2 as cv
 
 cap=cv.VideoCapture(0)
