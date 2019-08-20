@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+#importing some modules
 import cv2 as cv
 import numpy as np
 img=cv.imread('wp3778678.jpg')
