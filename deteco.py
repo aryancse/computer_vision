@@ -6,7 +6,7 @@
 # importing modules required
 import cv2 as cv
 
-cap=cv.VideoCapture(0)
+cap=cv.VideoCapture(0) #default camera starts
 
 #camera stauts
 while cap.isOpened():
