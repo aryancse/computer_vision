@@ -10,7 +10,7 @@ tp2=cap.read()[1]  #take2
 tp3=cap.read()[1]  #take3
 
 #  to make more perfect so that do not have any color issue
-gray1=cv.cvtColor(tp1,cv.COLOR_BGR2GRAY)
+gray1=cv.cvtColor(tp1,cv.COLOR_BGR2GRAY)   #  converting into grey
 gray2=cv.cvtColor(tp2,cv.COLOR_BGR2GRAY)   #  converting into grey
 gray3=cv.cvtColor(tp3,cv.COLOR_BGR2GRAY)   #  converting into grey
 
