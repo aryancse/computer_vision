@@ -10,7 +10,7 @@ img=cv.imread('wp3778678.jpg')
 print(img)
 
 
-#print shape 
+# to print shape 
 print(img.shape)
 
 #to display the img
