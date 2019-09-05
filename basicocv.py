@@ -17,7 +17,7 @@ print(img)
 print(img.shape)
 
 #to display img
-cv.imshow('murat',img[0:250,0:150]) #to crop 
+cv.imshow('murat',img[0:250,0:150]) #to crop the image 
 cv.imshow('m2',img1) # the second window
 #to make the window open
 cv.waitKey(0)  #0 means for the infinte time or it is in mili/micro sec
