@@ -15,7 +15,7 @@ while cap.isOpened():
     redimg=cv.inRange(frame,(0,0,0),(90,90,255))
 
     cv.imshow('liveredcolor',redimg)
-    if cv.waitKey(10)   &  0xff == ord('q'):
+    if cv.waitKey(10)   &  0xff == ord('q'): #to quit the loop or to close the camera with the keyboard input
         break
 
 cv.destroyAllWindows()
