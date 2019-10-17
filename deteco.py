@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 
-#to detect the color (red)
+#to detect the color(red)
 
 # importing modules required
 import cv2 as cv
